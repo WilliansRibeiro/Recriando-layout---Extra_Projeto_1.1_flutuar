@@ -1,0 +1,89 @@
+/* Define o estilo para todo o corpo da página */
+body {
+  font-family: "Open Sans", sans-serif; /* Define a fonte padrão */
+  margin: 0; /* Remove margens ao redor do corpo */
+  text-align: center; /* Centraliza o texto no corpo */
+}
+
+/* Define o estilo para a seção com ID "flut" */
+#flut {
+  width: 626px; /* Define a largura da seção */
+  margin: 0 auto 32px; /* Centraliza horizontalmente e adiciona margem na parte inferior */
+}
+
+/* Define o estilo para imagens dentro da seção "flut" */
+#flut img {
+  margin-bottom: 32px; /* Adiciona margem na parte inferior da imagem */
+  margin-top: 64px; /* Adiciona margem na parte superior da imagem */
+}
+
+/* Define o estilo para os elementos <h1> (cabeçalho) */
+h1 {
+  font-family: "Dosis", sans-serif; /* Define a fonte para os cabeçalhos */
+  font-size: 32px; /* Define o tamanho da fonte */
+  line-height: 56px; /* Define a altura da linha */
+  font-weight: normal; /* Define o peso da fonte como normal */
+  margin-bottom: 16px; /* Adiciona margem na parte inferior do cabeçalho */
+}
+
+/* Define o estilo para o conteúdo dentro de um <span> dentro de um <h1> */
+h1 span {
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Define o estilo para elementos <span> em todo o documento */
+span {
+  color: #ee24ff; /* Define a cor do texto */
+}
+
+/* Define o estilo para parágrafos */
+p {
+  color: #828282; /* Define a cor do texto */
+  margin-bottom: 64px; /* Adiciona margem na parte inferior do parágrafo */
+}
+
+/* Define o estilo para elementos <span> dentro de parágrafos */
+p span {
+  color: #828282; /* Define a cor do texto */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Define o estilo para elementos <strong> dentro de parágrafos */
+p strong {
+  color: #3f3d56; /* Define a cor do texto */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Define o estilo para a seção com ID "footer" */
+#footer {
+  margin-bottom: 38px; /* Adiciona margem na parte inferior da seção */
+}
+
+/* Define o estilo para links dentro de "footer" */
+#footer a {
+  color: #7d7987; /* Define a cor do texto dos links */
+  font-size: 14px; /* Define o tamanho da fonte dos links */
+  line-height: 28px; /* Define a altura da linha dos links */
+  font-family: "Open Sans", sans-serif; /* Define a fonte para os links */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+  text-decoration: none; /* Remove sublinhado de links */
+}
+
+/* Define o estilo para links adjacentes em "footer" */
+#footer a + a {
+  margin-left: 42px; /* Adiciona margem à esquerda entre links adjacentes */
+}
+
+/* Define o estilo para a linha horizontal com ID "line" */
+#line {
+  width: 317px; /* Define a largura da linha */
+  height: 0; /* Define a altura como zero (linha horizontal) */
+  border: 1px solid #eceff2; /* Define a cor e o estilo da borda da linha */
+  margin: 64px auto 16px; /* Define margem nas partes superior e inferior e centraliza horizontalmente */
+}
+
+/* Define o estilo para a imagem com ID "wave" */
+#wave {
+  text-align: center; /* Centraliza o texto na imagem */
+  margin-bottom: 0; /* Remove margem inferior da imagem */
+}
